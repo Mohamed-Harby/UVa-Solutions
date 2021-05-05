@@ -41,5 +41,5 @@ int main() {
     while(cin >> B >> P >> M && cin.good()) {
         cout << mod_expon(B%M, P, M) << '\n';
     }
-    
+    return 0;
 }
