@@ -13,7 +13,7 @@ void output(int step, int mod, string out) {
 }
 
 int main() {
-    
+    lol
     int STEP, MOD;
     vector<bool> vis;
     while(cin >> STEP >> MOD){
@@ -38,3 +38,15 @@ int main() {
         }    
     }
 }
+//---------------------------
+// Another Solution
+
+int main() {
+    lol   
+    int STEP, MOD;
+    while(cin >> STEP >> MOD){
+        bool good = (__gcd(STEP, MOD) == 1);
+        good ? output(STEP, MOD, "Good Choice") : output(STEP, MOD, "Bad Choice");
+    }
+}
+
